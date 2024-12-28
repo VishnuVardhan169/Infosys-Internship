@@ -4,8 +4,8 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Define paths to files
-model_file_path = "C:/Users/vishn/Downloads/Downloads/best_model.pkl"
-vectorizer_file_path = "C:/Users/vishn/Downloads/Downloads/vectorizer.pkl"
+model_file_path = "best_model.pkl"
+vectorizer_file_path = "vectorizer.pkl"
 
 # Load the model and vectorizer
 try:
